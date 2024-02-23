@@ -6,4 +6,6 @@ RUN chmod -R a+r /opt/nifi-registry/
 RUN chmod -R a+x /opt/nifi-registry/nifi-registry-current/lib/
 RUN chmod -R a+x /opt/nifi-registry/nifi-registry-current/bin/
 RUN chmod -R a+x /opt/nifi-registry/nifi-toolkit-current/bin/
+RUN chmod -R a+x /opt/nifi-registry/nifi-toolkit-current/lib/
 RUN chmod -R a+rwx /opt/nifi-registry/nifi-registry-current/conf/
+RUN chmod -R a+rwx /opt/nifi-registry/nifi-toolkit-current/conf/
