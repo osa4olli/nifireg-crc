@@ -1,5 +1,7 @@
 FROM apache/nifi-registry:1.25.0
 
+RUN apt install -y vim
+
 RUN wget https://jdbc.postgresql.org/download/postgresql-42.7.1.jar -O /opt/nifi-registry/nifi-registry-current/lib/postgresql-42.7.1.jar
 
 RUN chmod -R a+r /opt/nifi-registry/
